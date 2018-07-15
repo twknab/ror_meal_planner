@@ -1,24 +1,19 @@
-# README
+# TODO
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Things to do:
 
-Things you may want to cover:
+* User login and registration with validations
 
-* Ruby version
+* Create new meal with validations
 
-* System dependencies
+* Read all meals
 
-* Configuration
+* Update meal
 
-* Database creation
+* Delete meal
 
-* Database initialization
+* User Logout
 
-* How to run the test suite
+* If time: Add in bootstrap
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Plan out your database in advance. Consider that you'll need at the very least User and Meal models, and perhaps a MealPlan model as well depending upon how you wish to accomplish this application. Something to think about before getting started. You can use the default SQLite db for now if you'd like, but be sure to use the ActiveRecord ORM when performing your actions.
